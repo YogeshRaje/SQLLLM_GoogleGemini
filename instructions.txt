@@ -1,0 +1,30 @@
+-python -m venv myenv python==3.10 -y
+-cd myenv\Scripts\activate
+or - 
+conda create -p venv python==3.10
+conda activate venv/
+
+-create .env file and  write Google Gemini APIKEY here
+-sql.py
+-app.py
+> pip install -r requirements.txt
+
+-in .env file put code
+ GOOGLE_API_KEY="AIzaSyDfUe-3YxBF3uoYfEFtuMAVQ6utdJ7Y3xk"
+
+>python sqllite.py 
+(student.db file will get created)
+> streamlit run app.py
+
+Query1= provide the average marks of all students
+o/p= you will get output on streamlit local sever
+as well as you are able to see the 
+query created by model at terminal.
+
+query2=provide the average marks of all students class wise 
+
+Query3=How many entries of records are present?
+
+Query4=who is topper student
+
+Query5 =Tell me all the students studying in Data Science class?
